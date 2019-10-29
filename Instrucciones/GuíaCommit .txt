@@ -4,3 +4,14 @@ Commit - Creación del Proyecto
   -Creación de la carpeta Instrucciones
     -Creación del archivo GuíaCommits.txt
   -Edición del archivo readme.md
+Commit - Instalación de paquetes
+  -Instalación de Laravel Collective 5.4
+    -Sitio web
+      -https://laravelcollective.com/docs/5.5/html
+        -composer require "laravelcollective/html":"^5.4.0"
+  -Instalación del paquete Shinobi 3.3.1 para roles y permisos
+    -Sitio web
+      -https://github.com/caffeinated/shinobi
+        -composer require caffeinated/shinobi "3.3.*"
+  -Edición del archivo config/app.php
+    -Adición de los providers para laravel collective y shinobi y el alias para laravel collective
