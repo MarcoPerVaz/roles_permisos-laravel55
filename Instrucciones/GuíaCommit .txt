@@ -1,0 +1,6 @@
+<----------Proyecto Roles y Permisos con Laravel 5.5---------->
+Commit - Creación del Proyecto
+  -composer create-project --prefer-dist laravel/laravel roles_permisos-laravel55 "5.5.*"
+  -Creación de la carpeta Instrucciones
+    -Creación del archivo GuíaCommits.txt
+  -Edición del archivo readme.md
