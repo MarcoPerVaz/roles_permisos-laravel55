@@ -31,3 +31,11 @@ Commit - Estructura del proyecto
     -php artisan migrate
   -Creación del seeder PermissionsTableSeeder
     -php artisan make:seeder PermissionsTableSeeder
+Commit - Seed para permisos
+  -Edición del seeder PermissionsTableSeeder
+    Nota: Importar el modelo Permission (Incluído en el paquete Shinobi)
+      -use Caffeinated\Shinobi\Models\Permission;
+    -Edición de la función run()
+  -Edición del archivo DatabaseSeeder.php
+    -Edición de la función run()
+  -Crear las migraciones con los datos semilla (seeds)
