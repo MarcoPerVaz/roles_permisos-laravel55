@@ -15,3 +15,19 @@ Commit - Instalación de paquetes
         -composer require caffeinated/shinobi "3.3.*"
   -Edición del archivo config/app.php
     -Adición de los providers para laravel collective y shinobi y el alias para laravel collective
+Commit - Estructura del proyecto
+  -Creación de la base de datos (MariaDB o HeidiSQL)
+    -roles_permisos-laravel55
+  -Edición del archivo .env
+    -DB_DATABASE=roles_permisos-laravel55
+    -DB_USERNAME=root
+    -DB_PASSWORD=
+  -Edición del provider app/Providers/AppServiceProvider (para evitar el error con la longitud (Solo en MariaDB))
+    Nota: Importar la clase Schema
+      -use Illuminate\Support\Facades\Schema;
+    -Edición de la función boot()
+      -Schema::defaultStringLength( 120 );
+  -Crear las migraciones
+    -php artisan migrate
+  -Creación del seeder PermissionsTableSeeder
+    -php artisan make:seeder PermissionsTableSeeder
