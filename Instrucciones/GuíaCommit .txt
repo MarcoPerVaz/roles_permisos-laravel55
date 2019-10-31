@@ -47,3 +47,14 @@ Commit - Modelo Product
     -php artisan make:seeder ProductsTableSeeder
   -Creación del seed UsersTableSeeder
     -php artisan make:seeder UsersTableSeeder
+Commit - Seeds, migración y factory 
+  -Edición de la migración create_products_table
+  -Edición del factory ProductFactory
+  -Edición del seeder ProductsTableSeeder
+  -Edición del seeder UsersTableSeeder
+    Nota: Importar el modelo Role
+      -use Caffeinated\Shinobi\Models\Role;
+  -Edición del archivo DatabaseSeeder.php
+    -Registro de los seeders ProductsTableSeeder y UsersTableSeeder
+  -Recrear las migraciones
+    -php artisan migrate:refresh --seed
