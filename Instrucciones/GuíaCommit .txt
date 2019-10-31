@@ -58,3 +58,9 @@ Commit - Seeds, migración y factory
     -Registro de los seeders ProductsTableSeeder y UsersTableSeeder
   -Recrear las migraciones
     -php artisan migrate:refresh --seed
+Commit - Middlewares role y permission de Shinobi
+  -Creación del sistema de login de Laravel
+    -php artisan make:auth
+  -Edición del archivo app/Kernel.php
+    -Se registran los middleware (role y permission) de la librería Shinobi
+  -Edición del archivo de rutas routes/web.php

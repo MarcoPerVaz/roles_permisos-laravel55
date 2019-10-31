@@ -11,6 +11,15 @@
 |
 */
 
+/* Ruta principal antes de loguerase */
 Route::get('/', function () {
     return view('welcome');
 });
+
+/* Login */
+Auth::routes();
+
+/* Ruta principal después de loguearse */
+Route::get('/home', 'HomeController@index')->name('home');
+
+
