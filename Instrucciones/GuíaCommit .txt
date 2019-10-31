@@ -39,3 +39,11 @@ Commit - Seed para permisos
   -Edición del archivo DatabaseSeeder.php
     -Edición de la función run()
   -Crear las migraciones con los datos semilla (seeds)
+Commit - Modelo Product
+  -Creación del modelo Product junto a su migración, factory y controlador
+    -php artisan make:model Product -a
+      Nota: Dónde el comando -a crea a partir del modelo, el factory, la migración y el controlador
+  -Creación del seed ProductsTableSeeder
+    -php artisan make:seeder ProductsTableSeeder
+  -Creación del seed UsersTableSeeder
+    -php artisan make:seeder UsersTableSeeder
