@@ -64,3 +64,5 @@ Commit - Middlewares role y permission de Shinobi
   -Edición del archivo app/Kernel.php
     -Se registran los middleware (role y permission) de la librería Shinobi
   -Edición del archivo de rutas routes/web.php
+Commit - Rutas y asignación de permisos
+  -Edición del archivo web.php
