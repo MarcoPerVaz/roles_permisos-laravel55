@@ -73,3 +73,5 @@ Commit - Ocultar botones dependiendo el permiso
     -php artisan make:controller UserController --resource
   -Creación del controlador RoleController
     -php artisan make:controller RoleController --resource
+Commit - Aplicando roles y permisos
+  -Edición del modelo User.php
