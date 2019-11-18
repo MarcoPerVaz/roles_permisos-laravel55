@@ -66,3 +66,10 @@ Commit - Middlewares role y permission de Shinobi
   -Edición del archivo de rutas routes/web.php
 Commit - Rutas y asignación de permisos
   -Edición del archivo web.php
+Commit - Ocultar botones dependiendo el permiso
+  -Edición de la vista welcome.blade.php
+  -Edición de la vista layouts/app.blade.php
+  -Creación del controlador UserController
+    -php artisan make:controller UserController --resource
+  -Creación del controlador RoleController
+    -php artisan make:controller RoleController --resource
