@@ -80,3 +80,10 @@ Commit - Ocultar botones dependiendo el permiso
     -Edición de la función index()
   -Creación de la carpeta products en resources/views
     -Creación de la vista index.blade.php dentro de la carpeta products/
+Commit - Controlador ProductController
+  -Edición de la función create()
+  -Edición de la función store()
+  -Edición de la función show()
+  -Edición de la función edit()
+  -Edición de la función update()
+  -Edición de la función destroy()
