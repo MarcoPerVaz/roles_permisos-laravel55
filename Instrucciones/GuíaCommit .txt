@@ -87,3 +87,13 @@ Commit - Controlador ProductController
   -Edición de la función edit()
   -Edición de la función update()
   -Edición de la función destroy()
+Commit - Vistas form (crear y editar) y show
+  -Creación de la carpeta partials en resources/views/products/
+    -Creación y edición de la vista parcial form.blade.php dentro de products/partials/
+  -Creación y edición de la vista show.blade.php dentro de la carpeta products/
+  -Creación de las vistas edit.blade.php, create.blade.php
+  Error: No se mostraba la información de productos
+    -Edición del archivo de rutas web.php
+      -Edición de las rutas con nombre
+        -products.update, products.show, products.destroy y products.edit
+  
