@@ -96,4 +96,8 @@ Commit - Vistas form (crear y editar) y show
     -Edición del archivo de rutas web.php
       -Edición de las rutas con nombre
         -products.update, products.show, products.destroy y products.edit
+Commit - Vistas edit y create
+  -Edición de la vista products/edit.blade.php
+  -Edición de la vista products/create.blade.php
+  -Edición de la vista app.blade.php para mostrar los mensajes de la variable de sesión
   

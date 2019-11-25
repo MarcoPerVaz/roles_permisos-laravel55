@@ -87,6 +87,19 @@
                 </div>
             </div>
         </nav>
+        
+        {{-- Mensaje de alerta con la variable de sesión 'info' --}}
+        @if (session( 'info' ))
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="alert alert-success">
+                            {{ session( 'info' ) }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        @endif
 
         @yield('content')
     </div>
