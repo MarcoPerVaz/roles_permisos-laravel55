@@ -127,3 +127,9 @@ Commit - Controlador UserController
   Nota: Función update()
   -Edición del controlador UserController
     -Edición de la función update()
+Commit - Controlador y vistas para roles
+  -Creación de la carpeta roles en resources/views/
+    -Creación de la carpeta partials en roles/
+      -Creación de la vista parcial form.blade.php dentro de partials/
+    -Creación de las vistas create.blade.php, edit.blade.php, index.blade.php y show.blade.php
+  -Edición del controlador RoleController
