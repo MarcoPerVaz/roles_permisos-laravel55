@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\User;
 use Illuminate\Http\Request;
+use Caffeinated\Shinobi\Models\Role;
 
 class UserController extends Controller
 {
@@ -42,8 +43,9 @@ class UserController extends Controller
      */
     public function edit(User $user)
     {
+        $roles = Role::get();
         
-        return view( 'users.edit', compact( 'user' ) );
+        return view( 'users.edit', compact( 'user', 'roles' ) );
 
     }
 

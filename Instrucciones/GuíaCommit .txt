@@ -117,3 +117,9 @@ Commit - Vistas
         -users.update, users.show, users.destroy y users.edit
   -Eliminación de la vista users/create.blade.php
   -Edición de la vista users/edit.blade.php
+Commit - Controlador UserController
+  Nota: Función edit()
+  -Edición del controlador UserController
+    Nota: Importar el modelo Role desde Shinobi
+      -use Caffeinated\Shinobi\Models\Role;
+    -Edición de la función edit()
