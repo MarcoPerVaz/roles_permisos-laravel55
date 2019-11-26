@@ -100,4 +100,13 @@ Commit - Vistas edit y create
   -Edición de la vista products/edit.blade.php
   -Edición de la vista products/create.blade.php
   -Edición de la vista app.blade.php para mostrar los mensajes de la variable de sesión
-  
+Commit - Modelo, controlador y vistas
+  -Edición del modelo Product
+    -Creación de la propiedad fillable que permita crear y editar la información del producto
+  -Edición del controlador UserController
+    -Edición de la función index(), show(), edit(), update() y destroy()
+  -Creación de la carpeta users
+    -Creación de la carpeta partials
+      -Creación de la vista parcial form.blade.php dentro de partials/
+    -Creación de las vistas create.blade.php, edit.blade.php y show.blade.php
+    -Creación y edición de la vista index.blade.php 
