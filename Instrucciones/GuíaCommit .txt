@@ -110,3 +110,10 @@ Commit - Modelo, controlador y vistas
       -Creación de la vista parcial form.blade.php dentro de partials/
     -Creación de las vistas create.blade.php, edit.blade.php y show.blade.php
     -Creación y edición de la vista index.blade.php 
+Commit - Vistas 
+  -Edición de la vista users/show.blade.php
+  Error: No se mostraba la información de usuarios
+  -Edición de las rutas con nombre
+        -users.update, users.show, users.destroy y users.edit
+  -Eliminación de la vista users/create.blade.php
+  -Edición de la vista users/edit.blade.php
