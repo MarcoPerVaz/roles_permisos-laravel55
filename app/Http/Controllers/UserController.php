@@ -44,7 +44,7 @@ class UserController extends Controller
     public function edit(User $user)
     {
         $roles = Role::get();
-        
+
         return view( 'users.edit', compact( 'user', 'roles' ) );
 
     }
@@ -58,10 +58,13 @@ class UserController extends Controller
      */
     public function update(Request $request, User $user)
     {
-        
+        /* Actualizar usuario */
         $user->update( $request->all() );
 
-        return redirect()->route( 'users.edit', $user->id )->with( 'info', 'Usero actualizado con éxito' );
+        /* Actualizar roles */
+        $user->roles()->sync( $request->get( 'roles' ) );
+
+        return redirect()->route( 'users.edit', $user->id )->with( 'info', 'Usuario actualizado con éxito' );
 
     }
 

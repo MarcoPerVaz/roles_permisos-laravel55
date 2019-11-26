@@ -123,3 +123,7 @@ Commit - Controlador UserController
     Nota: Importar el modelo Role desde Shinobi
       -use Caffeinated\Shinobi\Models\Role;
     -Edición de la función edit()
+Commit - Controlador UserController
+  Nota: Función update()
+  -Edición del controlador UserController
+    -Edición de la función update()
