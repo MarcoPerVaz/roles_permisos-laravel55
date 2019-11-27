@@ -133,3 +133,9 @@ Commit - Controlador y vistas para roles
       -Creación de la vista parcial form.blade.php dentro de partials/
     -Creación de las vistas create.blade.php, edit.blade.php, index.blade.php y show.blade.php
   -Edición del controlador RoleController
+Commit - Guardar y editar roles
+  -Edición de la vista parcial roles/partials/form.blade.php
+  -Edición del controlador RoleController
+  Error: No se guardaban productos
+    -Edición del controlador ProductController
+      -Edición de la función store()
