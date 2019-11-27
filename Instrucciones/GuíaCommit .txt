@@ -139,3 +139,12 @@ Commit - Guardar y editar roles
   Error: No se guardaban productos
     -Edición del controlador ProductController
       -Edición de la función store()
+Commit - Permisos desde el controlador
+  -Edición del archivo de rutas web.php
+  -Edición del controlador RoleController
+    -Creación del constructor __construct()
+  -Creación y edición de las vistas de errores 403 y 404
+    -Creación de la carpeta errors
+      -Creación y edición de la vista 403.blade.php
+      -Creación y edición de la vista 404.blade.php
+<----------Fin---------->
